@@ -51,8 +51,19 @@
         <div class="hero-body">
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
+                    <div class="column has-text-centered   is-one-fifths">
+                        <figure class="image is-square">
+                            <img src="static/images/logo.png" alt="VLBreakBench">
+                        </figure>
+                    </div>
+                    <div class="column has-text-centered  is-four-fifths">
+                        <h1 class="title is-1 publication-title">
+                            VLBreakBench: A Benchmark for Evaluating VLM Robustness Against Multimodal Kailbreak Attacks
+                        </h1>
+                    </div>
+                </div>
+                <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title">VLBreakBench: A Benchmark for Evaluating VLM Robustness against multimodal jailbreak attacks</h1>
                         <div class="is-size-5 publication-authors">
                             <!-- Paper authors -->
                             <span class="author-block">
@@ -126,7 +137,7 @@
     <section class="section hero is-light">
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
+                <div class="column">
                     <h2 class="title is-3">Benchmark Overview</h2>
                     <div class="content has-text-justified">
                         <p>
@@ -142,13 +153,14 @@
                             ensuring coverage of both technical vulnerabilities and societal impacts. The taxonomy provides a structured classification
                             of different security risks, offering valuable insights into VLM safety in real-world applications.
                         </p>
-
-
-                        <figure class="image is-centered">
-                            <img src="static/images/cat.png" alt="Benchmark Overview">
-                            <figcaption class="has-text-centered">Safety taxonomy of VLBreakBench.</figcaption>
-                        </figure>
-
+                        <div class="columns is-centered has-text-centered">
+                            <div class="column is-three-fifths">
+                                <figure class="image is-centered">
+                                    <img src="static/images/cat.png" alt="Benchmark Overview">
+                                    <figcaption class="has-text-centered">Safety taxonomy of VLBreakBench.</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,9 +169,9 @@
 
 
     <section class="section">
-        <div class="container">
+        <div class="container  is-max-desktop">
             <div class="columns is-centered">
-                <div class="column is-two-thirds">
+                <div class="column ">
                     <h2 class="title is-3 has-text-centered">Dataset Generation</h2>
                     <div class="content has-text-justified">
                         <p>
@@ -205,9 +217,8 @@
     <section class="hero is-small">
         <div class="hero-body">
             <div class="container">
-                <div id="results-carousel" class="results-carousel">
-                    <div class="item">
-                        <!-- Your image here -->
+                <div class="columns is-centered">
+                    <div class="column  is-four-fifths">
                         <img src="static/images/challenge.png" alt="data_example" />
                         <h2 class="subtitle has-text-centered">
                             Examples from the challenge set in VLBreakBench.
@@ -220,14 +231,13 @@
     <!-- End image carousel -->
 
     <section class="section">
-        <div class="container">
+        <div class="container    is-max-desktop">
             <h2 class="title is-3 has-text-centered">Safety Evaluation of VLMs on the Base Set</h2>
             <p class="has-text-centered">
                 ASR (%) across 12 safety topics. Certain model names are abbreviated for brevity. "Avg." denotes the average ASR across all topics.
             </p>
-
-            <div class="table-container">
-                <table class="table is-striped is-bordered is-hoverable is-fullwidth">
+            <div class="table-container ">
+                <table class="table is-striped is-bordered is-hoverable is-narrow is-fullwidth">
                     <thead>
                         <tr>
                             <th>ASR (%)</th>
@@ -266,14 +276,14 @@
 
 
     <section class="section">
-        <div class="container">
+        <div class="container   is-max-desktop">
             <h2 class="title is-3 has-text-centered">Safety Evaluation of VLMs on the Challenge Set</h2>
             <p class="has-text-centered">
                 ASR (%) across 12 safety topics. Certain model names are abbreviated for brevity. "Avg." denotes the average ASR across all topics.
             </p>
 
             <div class="table-container">
-                <table class="table is-striped is-bordered is-hoverable is-fullwidth">
+                <table class="table is-striped is-bordered is-hoverable is-narrow is-fullwidth">
                     <thead>
                         <tr>
                             <th>ASR (%)</th>
