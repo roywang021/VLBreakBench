@@ -58,7 +58,7 @@
                     </div>
                     <div class="column has-text-centered  is-four-fifths">
                         <h1 class="title is-1 publication-title">
-                            VLBreakBench: A Benchmark for Evaluating VLM Robustness against Multimodal Kailbreak Attacks
+                            VLBreakBench: A Benchmark for Evaluating VLM Robustness against Multimodal Jailbreak Attacks
                         </h1>
                     </div>
                 </div>
@@ -212,6 +212,99 @@
         </div>
     </section>
 
+    <section class="section">
+  <div class="container">
+    <h2 class="title is-4 has-text-centered">Statistical Overview of Base and Challenge Sets</h2>
+    <p class="has-text-centered">Structured by category and subcategory.</p>
+
+    <div class="table-container">
+      <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Subcategory</th>
+            <th>Base Set Size</th>
+            <th>Challenge Set Size</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Economic Harm -->
+          <tr><td rowspan="3">Economic Harm</td><td>Economic Data Manipulation</td><td>18</td><td>60</td></tr>
+          <tr><td>Financial Fraud</td><td>22</td><td>60</td></tr>
+          <tr><td>Financial Misleading</td><td>19</td><td>60</td></tr>
+
+          <!-- Ethical Issues -->
+          <tr><td rowspan="4">Ethical Issues</td><td>Algorithmic Bias</td><td>19</td><td>60</td></tr>
+          <tr><td>Data Misuse</td><td>20</td><td>60</td></tr>
+          <tr><td>Ethical Controversies</td><td>22</td><td>60</td></tr>
+          <tr><td>Unauthorized Personalized Advice</td><td>18</td><td>54</td></tr>
+
+          <!-- Gender and Cultural Bias -->
+          <tr><td rowspan="4">Gender and Cultural Bias</td><td>Cross-cultural Conflicts</td><td>20</td><td>60</td></tr>
+          <tr><td>Cultural Discrimination</td><td>20</td><td>60</td></tr>
+          <tr><td>Gender Discrimination</td><td>20</td><td>60</td></tr>
+          <tr><td>Gender-based Violence</td><td>20</td><td>60</td></tr>
+
+          <!-- Hate Speech -->
+          <tr><td rowspan="4">Hate Speech</td><td>Gender Hate Speech</td><td>20</td><td>60</td></tr>
+          <tr><td>Political Hate Speech</td><td>20</td><td>60</td></tr>
+          <tr><td>Racial Hate Speech</td><td>20</td><td>60</td></tr>
+          <tr><td>Religious Hate Speech</td><td>20</td><td>60</td></tr>
+
+          <!-- Health Consultation -->
+          <tr><td rowspan="4">Health Consultation</td><td>False Health Advice</td><td>20</td><td>60</td></tr>
+          <tr><td>Medical Pseudoscience</td><td>20</td><td>60</td></tr>
+          <tr><td>Mental Health Issues</td><td>19</td><td>57</td></tr>
+          <tr><td>Misleading Self-diagnosis</td><td>20</td><td>60</td></tr>
+
+          <!-- Illegal Activities -->
+          <tr><td rowspan="5">Illegal Activities</td><td>Forgery of Documents/Certificates</td><td>20</td><td>60</td></tr>
+          <tr><td>Fraudulent Activities</td><td>21</td><td>60</td></tr>
+          <tr><td>Illegal Goods Trade</td><td>21</td><td>60</td></tr>
+          <tr><td>Piracy</td><td>20</td><td>60</td></tr>
+          <tr><td>Sexual Assault</td><td>21</td><td>60</td></tr>
+
+          <!-- Malware and Cyberattacks -->
+          <tr><td rowspan="4">Malware and Cyberattacks</td><td>Cybersecurity Vulnerabilities</td><td>19</td><td>60</td></tr>
+          <tr><td>Identity Impersonation</td><td>19</td><td>57</td></tr>
+          <tr><td>Malware Generation</td><td>20</td><td>60</td></tr>
+          <tr><td>Phishing Attacks</td><td>20</td><td>60</td></tr>
+
+          <!-- Political Sensitivity -->
+          <tr><td rowspan="4">Political Sensitivity</td><td>Political Manipulation and Intervention</td><td>20</td><td>60</td></tr>
+          <tr><td>Political Violence</td><td>20</td><td>60</td></tr>
+          <tr><td>Regime Suppression</td><td>13</td><td>39</td></tr>
+          <tr><td>Suppression of Freedom of Speech</td><td>19</td><td>57</td></tr>
+
+          <!-- Pornography -->
+          <tr><td rowspan="3">Pornography</td><td>Gender-based Violence</td><td>19</td><td>57</td></tr>
+          <tr><td>Pornographic Image and Video Generation</td><td>20</td><td>54</td></tr>
+          <tr><td>Pornographic Text Generation and Distribution</td><td>12</td><td>36</td></tr>
+
+          <!-- Privacy Violations -->
+          <tr><td rowspan="4">Privacy Violations</td><td>Abuse of Facial Recognition</td><td>20</td><td>60</td></tr>
+          <tr><td>Location Tracking</td><td>19</td><td>57</td></tr>
+          <tr><td>Personal Information Leaks</td><td>20</td><td>57</td></tr>
+          <tr><td>Voice Data Leaks</td><td>19</td><td>57</td></tr>
+
+          <!-- Social Attacks and Harassment -->
+          <tr><td rowspan="4">Social Attacks and Harassment</td><td>Cultural Attacks</td><td>20</td><td>60</td></tr>
+          <tr><td>Cyber Harassment</td><td>18</td><td>60</td></tr>
+          <tr><td>Online Bullying</td><td>22</td><td>60</td></tr>
+          <tr><td>Sexual Harassment</td><td>20</td><td>59</td></tr>
+
+          <!-- Violent Behavior -->
+          <tr><td rowspan="4">Violent Behavior</td><td>Cyberbullying</td><td>19</td><td>60</td></tr>
+          <tr><td>Domestic Violence</td><td>18</td><td>57</td></tr>
+          <tr><td>Physical Violence</td><td>20</td><td>60</td></tr>
+          <tr><td>Psychological Violence</td><td>20</td><td>60</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+    
     <!-- End paper abstract -->
     <!-- Image carousel -->
     <section class="hero is-small">
